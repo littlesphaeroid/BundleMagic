@@ -8,58 +8,145 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/BundleMagic.lvproj" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/BundleMagic.lvproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/UI/Has focus actor.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/UI/Has focus actor.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/UI/Overlay Delete Elements in Cluster Tree.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/UI/Overlay Delete Elements in Cluster Tree.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/UI/Set Panel Origin.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/UI/Set Panel Origin.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Acquire Module Semaphore.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Addressed to This Module.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Broadcast Events--cluster.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Clone Registration/Action--enum.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Clone Registration/Add.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Clone Registration/Clone Registration AE.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Clone Registration/Clone Registration.lvlib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Clone Registration/Destroy Last Clone Instance Notifier.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Clone Registration/Init.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Clone Registration/Is Empty.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Clone Registration/Is First.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Clone Registration/List Instances.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Clone Registration/Obtain Last Clone Instance Notifier.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Clone Registration/Remove.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Clone Registration/Send Last Clone Instance Notification.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Clone Registration/Test Clone Registration API.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Clone Registration/Wait on Last Clone Instance Notification.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Close Module.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Destroy Broadcast Events.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Destroy Module Semaphore Reference.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Destroy Request Events.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Destroy Sync Refnums.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Did Init Argument--cluster.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Error Reported Argument--cluster.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Error Reported.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Get Module Execution Status Argument--cluster.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Get Module Execution Status.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Get Module Running State.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Get Sync Refnums.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Handle Exit.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Hide Panel Argument--cluster.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Hide Panel.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Hide VI Panel.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Init Module.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Init Select Module Ring.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Is Safe to Destroy Refnums.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Main.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Master Reference Not Closed--error.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Module Data--cluster.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Module Did Init.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Module Did Stop.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Module Name--constant.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Module Not Running--error.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Module Not Stopped--error.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Module Not Synced--error.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Module Running State--enum.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Module Running as Cloneable--error.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Module Running as Singleton--error.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Module Timeout--constant.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Null Broadcast Events--constant.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Obtain Broadcast Events for Registration.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Obtain Broadcast Events.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Obtain Module Semaphore.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Obtain Request Events.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Open VI Panel.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Release Module Semaphore.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Request Events--cluster.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Request and Wait for Reply Timeout--error.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Restore Open Items Argument--cluster.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Restore Open Items.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Show Diagram Argument--cluster.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Show Diagram.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Show Panel Argument--cluster.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Show Panel.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Start Module.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Status Updated Argument--cluster.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Status Updated.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Stop Argument--cluster.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Stop Module.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Synchronize Caller Events.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Synchronize Module Events.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Test Tree Handlr API.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Tree Handlr.lvlib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Update Module Execution Status.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Update Select Module Ring.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/VI Reference Management/Action--enum.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/VI Reference Management/Close.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/VI Reference Management/Create.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/VI Reference Management/Get or Create Master Reference.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/VI Reference Management/Get.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/VI Reference Management/Main VI Type--strict_vi_ref.ctl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/VI Reference Management/VI Reference AE.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/VI Reference Management/VI Reference Management.lvlib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Wait on Event Sync.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Wait on Module Sync.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/Libraries/Tree Handlr/Wait on Stop Sync.vi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/build actions/Post-Build Action_Make copy for LV2015.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/build actions/Post-Build Action_Make copy for LV2015.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/build actions/Pre-Build Action.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/build actions/Pre-Build Action.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/class/Class Method Property File Paths.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/class/Class Method Property File Paths.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/class/Class Tree_Arrow Control.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/class/Class Tree_Arrow Control.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/class/Class Tree_Select first or last item.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/class/Class Tree_Select first or last item.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Cluster_Disable Unlabeled Items.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Cluster_Disable Unlabeled Items.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Disable Last Unselected for Remove Elements Action.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Disable Last Unselected for Remove Elements Action.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/comparison/Is Tunnel Indexing.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/comparison/Is Tunnel Indexing.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Cluster Dialog_Select Unwired Terminals.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Cluster Dialog_Select Unwired Terminals.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Bundle Magic Init.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Bundle Magic Init.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/class/Sort Class Array for Tree.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/class/Sort Class Array for Tree.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Bundler_Selected Element.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Bundler_Selected Element.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Cluster Item to Tree Item.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Cluster Item to Tree Item.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Cluster is one element or unnamed elements.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Cluster is one element or unnamed elements.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Cluster_Left Cell String.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Cluster_Left Cell String.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/comparison/Is Class Dottable.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/comparison/Is Class Dottable.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/controls/action enum.ctl" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/controls/action enum.ctl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Class Selection.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Class Selection.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Cluster Item Selection.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Cluster Item Selection.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Method Selection.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Method Selection.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Property Selection.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Property Selection.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Dialog Title.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Dialog Title.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Dialog_Arrow Key Handler_ACAF.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Dialog_Arrow Key Handler_ACAF.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Dialog_Setup Filter String.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Dialog_Setup Filter String.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Dialog_Arrow Key Handler.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Dialog_Arrow Key Handler.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Dialog_Arrow Key Handler_ACAF.vi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Dialog_Setup Tree Functions.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Dialog_Setup Tree Functions.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/INI_Dialog display options.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/INI_Dialog display options.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Method Dialog_Setup Show Options.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Method Dialog_Setup Show Options.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Property Dialog_Select Unwired Terminals.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Property Dialog_Select Unwired Terminals.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Setup Radio Buttons for Dialog.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Setup Radio Buttons for Dialog.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter Class Tree_by Label.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/filter/Filter Class Tree_by Label.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter Cluster Items.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/filter/Filter Cluster Items.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter Property Tree_MAIN.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/filter/Filter Property Tree_MAIN.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter String Handler_ACAF.vi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter String_Handler.vi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/Create Dir if Non-Existant_with strip first.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/Create Dir if Non-Existant_with strip first.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/INI_Read LV INI Settings.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/INI_Read LV INI Settings.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/Path_Support Directory.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/Path_Support Directory.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree_Build Tree.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree_Build Tree.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree_Remove empty display-only parents.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree_Remove empty display-only parents.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree_Select on Enter.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree_Select on Enter.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Setup Select Unwired Button.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Setup Select Unwired Button.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter String_Arrow Key Handler.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/filter/Filter String_Arrow Key Handler.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter String_Arrow Key Handler_ACAF.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/filter/Filter String_Arrow Key Handler_ACAF.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter String_Focus Handler.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/filter/Filter String_Focus Handler.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/get class prop/Get All Classes Properties and Methods.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/get class prop/Get All Classes Properties and Methods.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/get class prop/Get All Properties.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/get class prop/Get All Properties.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/menu/Menu_Class Specifier.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/menu/Menu_Class Specifier.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/menu/Menu_Cluster Terminal.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/menu/Menu_Cluster Terminal.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/menu/Menu_Cluster Wire.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/menu/Menu_Cluster Wire.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/menu/Menu_In Place Bundler.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/menu/Menu_In Place Bundler.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/menu/Menu_Invoke Node.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/menu/Menu_Invoke Node.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/menu/Menu_LV Class Control.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/menu/Menu_LV Class Control.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/menu/Menu_Named Bundler.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/menu/Menu_Named Bundler.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/menu/Menu_Property Node.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/menu/Menu_Property Node.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/menu/Menu_Refnum Terminal.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/menu/Menu_Refnum Terminal.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/menu/Menu_Refnum Wire.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/menu/Menu_Refnum Wire.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/Check for Ini files and create.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/Check for Ini files and create.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/INI_Property Files Built With.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/INI_Property Files Built With.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/position/New Node On Wire_CREATE.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/position/New Node On Wire_CREATE.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/property_method/method/Methods_Insert Dividers.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/method/Methods_Insert Dividers.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Get Properties from File by Class and or ID.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/property/Get Properties from File by Class and or ID.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Properties to Tree Array.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/property/Properties to Tree Array.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Properties_Insert Dividers.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/property/Properties_Insert Dividers.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree_Populate Trees.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree_Populate Trees.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/tests/BundleMagic TEST.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tests/BundleMagic TEST.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tests/Large CLuster.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tests/Large CLuster.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Build Tree From Classes.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Build Tree From Classes.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree Column Header.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree Column Header.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree Value FG.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree Value FG.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree_Go to next displayed item.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree_Go to next displayed item.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree_Select first or last item.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree_Select first or last item.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/top/BundleMagic TOP.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/top/BundleMagic TOP.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree_Cluster Tag convert.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree_Cluster Tag convert.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree_Scroll Sync Event Handler_ACAF.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree_Scroll Sync Event Handler_ACAF.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree_Scroll Sync_Event Handler_Bundle Magic.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree_Scroll Sync_Event Handler_Bundle Magic.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree_Sync Symbols Handler_ACAF.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree_Sync Symbols Handler_ACAF.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree_Update Tree.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree_Update Tree.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tunnel and terminal/Get Tunnel Position on Structure.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tunnel and terminal/Get Tunnel Position on Structure.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tunnel and terminal/Get Tunnel Position on Structure_Flat Sequence.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tunnel and terminal/Get Tunnel Position on Structure_Flat Sequence.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/Application Control/Convert to Previous version of LabVIEW.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/Application Control/Convert to Previous version of LabVIEW.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/Application Control/In Subpanel.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/Application Control/In Subpanel.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/Data, Path &amp; File/Library Path_LLLB2.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/Data, Path &amp; File/Library Path_LLLB2.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/Dialog Date &amp; Time/Elapsed Time.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/Dialog Date &amp; Time/Elapsed Time.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/UI/Alignment/Align Windows/Align VI windows.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/UI/Alignment/Align Windows/Align VI windows.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/UI/Listbox and Table/Tree_Set position based on value.vi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/UI/Splitters/Dialog Window Setup.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/UI/Splitters/Dialog Window Setup.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/UI/Splitters/FP splitter mode handler.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/UI/Splitters/FP splitter mode handler.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/utils/Application Control/Get First VI Call Chain with Open Panel.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/Application Control/Get First VI Call Chain with Open Panel.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Distribution/BundleMagic Plugin.vipb" beforeDir="false" afterPath="$PROJECT_DIR$/Source Distribution/BundleMagic Plugin.vipb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Distribution/bundle_magic_plugin-1.1.0.8.vip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Distribution/little_sphaeroid_design_lib_bundlemagic-1.1.0.5.vip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +212,7 @@
       <workItem from="1726608589891" duration="1195000" />
       <workItem from="1733268181209" duration="21000" />
       <workItem from="1733509569049" duration="946000" />
+      <workItem from="1735779480223" duration="4078000" />
     </task>
     <task id="LOCAL-00001" summary="testing use opf PyCharm for source code control and LabVIEW">
       <option name="closed" value="true" />

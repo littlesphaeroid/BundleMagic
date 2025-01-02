@@ -164,7 +164,25 @@ You can add, remove, or rearrange elements from bundle- and unbundle-by-name nod
 </p>
 
 # Version History
-## v 1.1 (planned)
+
+## v 1.2 (in progress)
+### New Features
+
+### Bug Fixes
+- Fixed issue where ctrl-up/down arrow keys on filter string would not select text as expected
+- Fixed issue where filtering to an empty tree in the Class dialog would generate an unhandled error
+- In Properties dialog, mouse over on listboxes caused filter to lose focus (issue #46)
+- Corrected Done button mouseover color (issue #37)
+- Checking a box in the multi-column listbox of the properties dialog would prevent mouse wheel scrolling on main listbox (issue #45)
+- Corrected issue where "Browse Classes..." manu items was not working (issue #43)
+
+### Changes and Improvements
+- ctrl-a now works to select all text in dialog filter strings
+shift-tab in dialog tree will activate the tree filter (tab from filter navigates to tree)
+- United arrow and tab handing in dialogs into common actor
+- Added separator after Swap/Rearrange... in cluster and property node contextual menus (issue #22)
+
+## v 1.1
 ### New Features
 - Dialog search fields now accept multiple search terms
 - New (Un)Bundle by name and Property Node actions:
@@ -182,7 +200,6 @@ You can add, remove, or rearrange elements from bundle- and unbundle-by-name nod
 - Corrected unexpected behavior when using arrow keys on a dialog tree
 - Corrected issue where tabbing from a dialog's filter when tree had no selectable items didn't work. Now tab will advance to the "Done" button.
 - Corrected issue where the class selection dialog allowed selection of more than one class
-
 ### Changes and Improvements
 - Support files are now based on the LabVIEW display name (such as “LV2023 Q3") rather than just the year, in order to capture any property/class or method changes in major LV releases.
 - Removing unwired elements no longer removes elements with broken wires

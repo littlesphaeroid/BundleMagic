@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-02-28 18:46:53" Modified_Date="2024-09-11 19:17:43" Creator="drwag" Comments="" ID="65112cef0c6030629db42a647ee776c9">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-02-28 18:46:53" Modified_Date="2025-01-01 18:44:23" Creator="drwag" Comments="" ID="56769f115a3452d8b648638f50f9ce1a">
   <Library_General_Settings>
     <Package_File_Name>Little_Sphaeroid_Design_lib_BundleMagic</Package_File_Name>
     <Library_Version>1.1.0.6</Library_Version>
@@ -29,7 +29,7 @@
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>BundleMagic Plugin.vipc</VI_Package_Configuration_File>
     <Description>
-      <One_Line_Description_Summary>Shortcut-menu plugin to ease work with clusters, properties, and methods using dialogs</One_Line_Description_Summary>
+      <One_Line_Description_Summary>Shortcut-menu plugin to ease work with clusters, properties, methods, and classes using dialogs</One_Line_Description_Summary>
       <Description>
 Bundle Mag!c is a LabVIEW plugin that augments right-click menu options on the block diagram for:
 
@@ -50,7 +50,7 @@ The VIPM installation will include a dependency called "LabVIEW Bug Fix for Righ
 </Description>
       <Copyright/>
       <Packager>Rustle Wagner</Packager>
-      <URL>https://github.com/LittleSphaeroidDesign/BundleMagic</URL>
+      <URL>https://github.com/littlesphaeroid/BundleMagic</URL>
       <Release_Notes>
 &lt;b&gt;New Features&lt;/b&gt;
 
