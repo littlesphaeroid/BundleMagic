@@ -167,20 +167,22 @@ You can add, remove, or rearrange elements from bundle- and unbundle-by-name nod
 
 ## v 1.2 (in progress)
 ### New Features
+- Dialog trees now respond to opt/alt-click on expand buttons by expanding or collapsing all parent items in tree (issue #27)
 
 ### Bug Fixes
 - Fixed issue where ctrl-up/down arrow keys on filter string would not select text as expected
 - Fixed issue where filtering to an empty tree in the Class dialog would generate an unhandled error
 - In Properties dialog, mouse over on listboxes caused filter to lose focus (issue #46)
-- Corrected Done button mouseover color (issue #37)
+- Corrected issue where Done button mouseover color resulted in blank button (issue #37)
 - Checking a box in the multi-column listbox of the properties dialog would prevent mouse wheel scrolling on main listbox (issue #45)
-- Corrected issue where "Browse Classes..." manu items was not working (issue #43)
+- Corrected issue where the "Browse Classes..." menu item was not working (issue #43)
 
 ### Changes and Improvements
-- ctrl-a now works to select all text in dialog filter strings
-shift-tab in dialog tree will activate the tree filter (tab from filter navigates to tree)
+- Ctrl-a now works to select all text in dialog filter strings
+- Shift-tab in dialog tree will activate the tree filter (tab from filter navigates to tree)
 - United arrow and tab handing in dialogs into common actor
 - Added separator after Swap/Rearrange... in cluster and property node contextual menus (issue #22)
+- Class dialog opens with Control class expanded
 
 ## v 1.1
 ### New Features
