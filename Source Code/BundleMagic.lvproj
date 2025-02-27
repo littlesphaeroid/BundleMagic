@@ -46,6 +46,8 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Tree Handlr API.vi" Type="VI" URL="../Libraries/Tree Handler/Test Tree Handlr API.vi"/>
 		</Item>
+		<Item Name="Done Button.ctl" Type="VI" URL="../controls/Done Button.ctl"/>
+		<Item Name="Done Button_TEST.vi" Type="VI" URL="../controls/Done Button_TEST.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
@@ -253,11 +255,11 @@
 			<Item Name="Property Dialog_Toggle RW Symbol.vi" Type="VI" URL="../dialogs/Property Dialog_Toggle RW Symbol.vi"/>
 			<Item Name="Property Tree Set Value_Master.vi" Type="VI" URL="../property_method/property/Property Tree Set Value_Master.vi"/>
 			<Item Name="Property Tree Set Value_Remove Items_old.vi" Type="VI" URL="../property_method/property/Property Tree Set Value_Remove Items_old.vi"/>
-			<Item Name="Property Tree Set Value_Rearrange Items.vi" Type="VI" URL="../property_method/property/Property Tree Set Value_Rearrange Items.vi"/>
+			<Item Name="Property Tree Set Value_Reorder Items.vi" Type="VI" URL="../property_method/property/Property Tree Set Value_Reorder Items.vi"/>
 			<Item Name="Property Tree Set Value_Select Items.vi" Type="VI" URL="../property_method/property/Property Tree Set Value_Select Items.vi"/>
 			<Item Name="Tree_Scroll Sync Event Handler_ACAF.vi" Type="VI" URL="../tree/Tree_Scroll Sync Event Handler_ACAF.vi"/>
 			<Item Name="Tree_Scroll Sync_Event Handler_Bundle Magic.vi" Type="VI" URL="../tree/Tree_Scroll Sync_Event Handler_Bundle Magic.vi"/>
-			<Item Name="Tree_Sync_Top Item.vi" Type="VI" URL="../tree/Tree_Sync_Top Item.vi"/>
+			<Item Name="Tree Sync_Sync Top Item.vi" Type="VI" URL="../tree/Tree Sync_Sync Top Item.vi"/>
 			<Item Name="Tree_Sync_Hide items.vi" Type="VI" URL="../tree/Tree_Sync_Hide items.vi"/>
 			<Item Name="Properties_Update RW From Value.vi" Type="VI" URL="../property_method/property/Properties_Update RW From Value.vi"/>
 			<Item Name="Properties to Tree Array.vi" Type="VI" URL="../property_method/property/Properties to Tree Array.vi"/>
@@ -281,7 +283,7 @@
 			<Item Name="Property Tree_Update Value.vi" Type="VI" URL="../property_method/property/Property Tree_Update Value.vi"/>
 			<Item Name="Property Tree_Select on Enter.vi" Type="VI" URL="../property_method/property/Property Tree_Select on Enter.vi"/>
 			<Item Name="Property Dialog_Select Unwired Terminals.vi" Type="VI" URL="../dialogs/Property Dialog_Select Unwired Terminals.vi"/>
-			<Item Name="Properties for Rearrange.vi" Type="VI" URL="../property_method/property/Properties for Rearrange.vi"/>
+			<Item Name="Properties for Reorder.vi" Type="VI" URL="../property_method/property/Properties for Reorder.vi"/>
 			<Item Name="Order Properties from Dialog.vi" Type="VI" URL="../dialogs/Order Properties from Dialog.vi"/>
 			<Item Name="Method Dialog_Setup Show Options.vi" Type="VI" URL="../dialogs/Method Dialog_Setup Show Options.vi"/>
 			<Item Name="Class Dialog_Setup Show Options.vi" Type="VI" URL="../dialogs/Class Dialog_Setup Show Options.vi"/>
@@ -301,13 +303,11 @@
 			<Item Name="In Subpanel.vi" Type="VI" URL="../utils/Application Control/In Subpanel.vi"/>
 			<Item Name="Align VI windows.vi" Type="VI" URL="../utils/UI/Alignment/Align Windows/Align VI windows.vi"/>
 			<Item Name="Is VI Running Top Level.vi" Type="VI" URL="../utils/Application Control/Is VI Running Top Level.vi"/>
-			<Item Name="Filter Cluster Tree_2.vi" Type="VI" URL="../filter/Filter Cluster Tree_2.vi"/>
 			<Item Name="Get-Set Enum.ctl" Type="VI" URL="../utils/Controls/Get-Set Enum.ctl"/>
 			<Item Name="Cluster Element Description.ctl" Type="VI" URL="../cluster/Cluster Element Description.ctl"/>
 			<Item Name="Cluster_Get Element Data for Tree.vi" Type="VI" URL="../cluster/Cluster_Get Element Data for Tree.vi"/>
 			<Item Name="Set Active Item.vi" Type="VI" URL="../tree/Set Active Item.vi"/>
 			<Item Name="Tree Value FG.vi" Type="VI" URL="../tree/Tree Value FG.vi"/>
-			<Item Name="Filter Cluster Items.vi" Type="VI" URL="../filter/Filter Cluster Items.vi"/>
 			<Item Name="Tree_resync user event.vi" Type="VI" URL="../tree/Tree_resync user event.vi"/>
 			<Item Name="Ascii to string.vi" Type="VI" URL="../utils/String/Ascii to string.vi"/>
 			<Item Name="Filter_Get all call chain parents.vi" Type="VI" URL="../filter/Filter_Get all call chain parents.vi"/>
@@ -438,12 +438,12 @@
 			<Item Name="Bundle Script_Named (Un)Bundler Remove.vi" Type="VI" URL="../cluster/Bundle Script_Named (Un)Bundler Remove.vi"/>
 			<Item Name="Bundle Script_Named (Un)Bundler Remove Unwired.vi" Type="VI" URL="../cluster/Bundle Script_Named (Un)Bundler Remove Unwired.vi"/>
 			<Item Name="Cluster Node_Unwired Terminals.vi" Type="VI" URL="../cluster/Cluster Node_Unwired Terminals.vi"/>
-			<Item Name="Bundle Script_Named (Un)Bundler Rearrange.vi" Type="VI" URL="../cluster/Bundle Script_Named (Un)Bundler Rearrange.vi"/>
+			<Item Name="Bundle Script_Named (Un)Bundler Reorder.vi" Type="VI" URL="../cluster/Bundle Script_Named (Un)Bundler Reorder.vi"/>
 			<Item Name="Cleanup Wire on Terminal.vi" Type="VI" URL="../position/Cleanup Wire on Terminal.vi"/>
 			<Item Name="Bundle Script_In Place Insert.vi" Type="VI" URL="../cluster/Bundle Script_In Place Insert.vi"/>
 			<Item Name="Bundle Script_In Place Remove.vi" Type="VI" URL="../cluster/Bundle Script_In Place Remove.vi"/>
 			<Item Name="Bundle Script_In Place Remove Unwired.vi" Type="VI" URL="../cluster/Bundle Script_In Place Remove Unwired.vi"/>
-			<Item Name="Bundle Script_In Place Rearrange.vi" Type="VI" URL="../cluster/Bundle Script_In Place Rearrange.vi"/>
+			<Item Name="Bundle Script_In Place Reorder.vi" Type="VI" URL="../cluster/Bundle Script_In Place Reorder.vi"/>
 			<Item Name="Position relative to InPlace.vi" Type="VI" URL="../position/Position relative to InPlace.vi"/>
 			<Item Name="Bundle Script_Wire Property or Method.vi" Type="VI" URL="../cluster/Bundle Script_Wire Property or Method.vi"/>
 			<Item Name="Bundle Script_Set Property Node Items.vi" Type="VI" URL="../cluster/Bundle Script_Set Property Node Items.vi"/>
@@ -456,7 +456,7 @@
 			<Item Name="Bundle Script_Properties Remove.vi" Type="VI" URL="../cluster/Bundle Script_Properties Remove.vi"/>
 			<Item Name="Bundle Script_Properties Remove Unwired.vi" Type="VI" URL="../cluster/Bundle Script_Properties Remove Unwired.vi"/>
 			<Item Name="Property Node_Unwired Terminals.vi" Type="VI" URL="../property_method/property/Property Node_Unwired Terminals.vi"/>
-			<Item Name="Bundle Script_Properties Rearrange.vi" Type="VI" URL="../cluster/Bundle Script_Properties Rearrange.vi"/>
+			<Item Name="Bundle Script_Properties Reorder.vi" Type="VI" URL="../cluster/Bundle Script_Properties Reorder.vi"/>
 			<Item Name="Bundle Script_Invoke Node Method Change.vi" Type="VI" URL="../cluster/Bundle Script_Invoke Node Method Change.vi"/>
 			<Item Name="Bundle Script_Select Constant Class.vi" Type="VI" URL="../cluster/Bundle Script_Select Constant Class.vi"/>
 			<Item Name="Bundle Script_Select Control Class.vi" Type="VI" URL="../cluster/Bundle Script_Select Control Class.vi"/>
@@ -488,8 +488,11 @@
 			<Item Name="Filter String_Handler.vi" Type="VI" URL="../filter/Filter String_Handler.vi"/>
 			<Item Name="Create Dir if Non-Existant_with strip first.vi" Type="VI" URL="../../../LabVIEW-common/Data, Path &amp; File/Create Dir if Non-Existant_with strip first.vi"/>
 			<Item Name="Clear Selected Errors.vi" Type="VI" URL="../../../LabVIEW-common/Error/Clear Selected Errors.vi"/>
-			<Item Name="Done Button.ctl" Type="VI" URL="../controls/Done Button.ctl"/>
-			<Item Name="Tree_Open Item and parents.vi" Type="VI" URL="../tree/Tree_Open Item and parents.vi"/>
+			<Item Name="Filter String_Focus Handler.vi" Type="VI" URL="../filter/Filter String_Focus Handler.vi"/>
+			<Item Name="Filter String_Focus Handler_ACAF.vi" Type="VI" URL="../filter/Filter String_Focus Handler_ACAF.vi"/>
+			<Item Name="Filter Cluster Items.vi" Type="VI" URL="../filter/Filter Cluster Items.vi"/>
+			<Item Name="Filter Cluster Tree_2.vi" Type="VI" URL="../filter/Filter Cluster Tree_2.vi"/>
+			<Item Name="INI_Dialog display options_Cluster.vi" Type="VI" URL="../dialogs/INI_Dialog display options_Cluster.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="BundleMagic Installer" Type="Installer">
@@ -596,7 +599,7 @@
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/build actions/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{219B7971-0745-49CE-9534-F7CFEB59DBC1}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">2</Property>
-				<Property Name="Bld_version.build" Type="Int">11</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
@@ -676,7 +679,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/build actions/Post-Build Action_restart menus.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/build actions/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A14BA47-A155-4145-84D2-5E1FBFFEAF76}</Property>
-				<Property Name="Bld_version.build" Type="Int">133</Property>
+				<Property Name="Bld_version.build" Type="Int">137</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -690,7 +693,7 @@
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D102A679-2D96-4390-B03E-FF742382D9EE}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C74CE95B-C4CC-4A15-8F7F-5B2704112047}</Property>
 				<Property Name="Source[0].newName" Type="Str">LSD_</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyPrefix" Type="Bool">true</Property>
