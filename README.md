@@ -184,6 +184,7 @@ You can add, remove, or rearrange elements from bundle- and unbundle-by-name nod
 - Change "Rearrange" to "Reorder" throughout (issue #51)
 - All cluster dialogs now include a "Hide Full Names" boolean, whose state is remembered (issue #42)
 - Opt/Alt-click in tree will open/close all nested tree items. (DONE?)
+- Un/Bundle on tunnel now intelligently selects Inside/Outside dialog selector, assuming we will want to unbundle inside of top/left tunnels, outside of bottom/right tunnels, and the reverse for bundle operations.
 
 ## v 1.1
 ### New Features

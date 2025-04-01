@@ -46,8 +46,6 @@
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Tree Handlr API.vi" Type="VI" URL="../Libraries/Tree Handler/Test Tree Handlr API.vi"/>
 		</Item>
-		<Item Name="Done Button.ctl" Type="VI" URL="../controls/Done Button.ctl"/>
-		<Item Name="Done Button_TEST.vi" Type="VI" URL="../controls/Done Button_TEST.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
@@ -259,7 +257,6 @@
 			<Item Name="Property Tree Set Value_Select Items.vi" Type="VI" URL="../property_method/property/Property Tree Set Value_Select Items.vi"/>
 			<Item Name="Tree_Scroll Sync Event Handler_ACAF.vi" Type="VI" URL="../tree/Tree_Scroll Sync Event Handler_ACAF.vi"/>
 			<Item Name="Tree_Scroll Sync_Event Handler_Bundle Magic.vi" Type="VI" URL="../tree/Tree_Scroll Sync_Event Handler_Bundle Magic.vi"/>
-			<Item Name="Tree Sync_Sync Top Item.vi" Type="VI" URL="../tree/Tree Sync_Sync Top Item.vi"/>
 			<Item Name="Tree_Sync_Hide items.vi" Type="VI" URL="../tree/Tree_Sync_Hide items.vi"/>
 			<Item Name="Properties_Update RW From Value.vi" Type="VI" URL="../property_method/property/Properties_Update RW From Value.vi"/>
 			<Item Name="Properties to Tree Array.vi" Type="VI" URL="../property_method/property/Properties to Tree Array.vi"/>
@@ -486,13 +483,14 @@
 			<Item Name="Strip Blank Strings.vi" Type="VI" URL="../../../LabVIEW-common/Array/Strip Blank Strings.vi"/>
 			<Item Name="Filter String Handler_ACAF.vi" Type="VI" URL="../filter/Filter String Handler_ACAF.vi"/>
 			<Item Name="Filter String_Handler.vi" Type="VI" URL="../filter/Filter String_Handler.vi"/>
-			<Item Name="Create Dir if Non-Existant_with strip first.vi" Type="VI" URL="../../../LabVIEW-common/Data, Path &amp; File/Create Dir if Non-Existant_with strip first.vi"/>
-			<Item Name="Clear Selected Errors.vi" Type="VI" URL="../../../LabVIEW-common/Error/Clear Selected Errors.vi"/>
 			<Item Name="Filter String_Focus Handler.vi" Type="VI" URL="../filter/Filter String_Focus Handler.vi"/>
 			<Item Name="Filter String_Focus Handler_ACAF.vi" Type="VI" URL="../filter/Filter String_Focus Handler_ACAF.vi"/>
 			<Item Name="Filter Cluster Items.vi" Type="VI" URL="../filter/Filter Cluster Items.vi"/>
 			<Item Name="Filter Cluster Tree_2.vi" Type="VI" URL="../filter/Filter Cluster Tree_2.vi"/>
 			<Item Name="INI_Dialog display options_Cluster.vi" Type="VI" URL="../dialogs/INI_Dialog display options_Cluster.vi"/>
+			<Item Name="Tree_Sync_Top Item.vi" Type="VI" URL="../tree/Tree_Sync_Top Item.vi"/>
+			<Item Name="Tree_Open Item and parents.vi" Type="VI" URL="../tree/Tree_Open Item and parents.vi"/>
+			<Item Name="Done Button.ctl" Type="VI" URL="../controls/Done Button.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="BundleMagic Installer" Type="Installer">
@@ -679,7 +677,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/build actions/Post-Build Action_restart menus.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/build actions/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A14BA47-A155-4145-84D2-5E1FBFFEAF76}</Property>
-				<Property Name="Bld_version.build" Type="Int">137</Property>
+				<Property Name="Bld_version.build" Type="Int">139</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>

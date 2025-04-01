@@ -5,86 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3f8eede-cf63-44c4-a557-c895b3822d70" name="Changes" comment="Create Init Bundle Magic Dialog">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/BundleMagic.lvproj" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/BundleMagic.lvproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/UI/Has focus actor.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/UI/Has focus actor.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/UI/Overlay Delete Elements in Cluster Tree.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/UI/Overlay Delete Elements in Cluster Tree.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/UI/Set Panel Origin.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/UI/Set Panel Origin.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/build actions/Post-Build Action_Make copy for LV2015.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/build actions/Post-Build Action_Make copy for LV2015.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/class/Class Arr to Tree Arr.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/class/Class Arr to Tree Arr.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/class/Class Tree_Arrow Control.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/class/Class Tree_Arrow Control.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/class/Class_Tree Tag_Encode.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/class/Class_Tree Tag_Encode.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Cluster Terminal Bundle.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Cluster Terminal Bundle.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Cluster Terminal Unbundle.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Cluster Terminal Unbundle.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_In Place Rearrange.vi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Named (Un)Bundler Insert.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Named (Un)Bundler Insert.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Named (Un)Bundler Rearrange.vi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Named (Un)Bundler Remove Unwired.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Named (Un)Bundler Remove Unwired.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Named (Un)Bundler Remove.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Named (Un)Bundler Remove.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Properties Rearrange.vi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Wire Bundle.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Wire Bundle.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Wire Unbundle.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Bundle Script_Wire Unbundle.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Cluster Item to Tree Item.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Cluster Item to Tree Item.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Cluster_Disable Unlabeled Items.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Cluster_Disable Unlabeled Items.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Cluster_Get Element Data for Tree.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Cluster_Get Element Data for Tree.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Cluster_Left Cell String.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Cluster_Left Cell String.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/cluster/Disable Last Unselected for Remove Elements Action.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/cluster/Disable Last Unselected for Remove Elements Action.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/comparison/Is Tunnel Indexing.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/comparison/Is Tunnel Indexing.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/controls/action enum.ctl" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/controls/action enum.ctl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Cluster Dialog_Select Unwired Terminals.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Cluster Dialog_Select Unwired Terminals.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Bundle Magic Init.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Bundle Magic Init.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/class/Get Refnum From Indexing Terminal.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/class/Get Refnum From Indexing Terminal.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Class Selection.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Class Selection.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Cluster Item Selection.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Cluster Item Selection.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Method Selection.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Method Selection.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Property Selection.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/DIALOG_Property Selection.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Dialog Title.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Dialog Title.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Dialog_Setup Tree Functions.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Dialog_Setup Tree Functions.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/INI_Dialog display options.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/INI_Dialog display options.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Method Dialog_Setup Show Options.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Method Dialog_Setup Show Options.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Property Dialog_Select Unwired Terminals.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Property Dialog_Select Unwired Terminals.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Property Dialog_Setup Show Options.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Property Dialog_Setup Show Options.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Select Dialog From Action.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Select Dialog From Action.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/dialogs/Setup Radio Buttons for Dialog.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/dialogs/Setup Radio Buttons for Dialog.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter Class Tree_by Label.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/filter/Filter Class Tree_by Label.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter Cluster Items.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/filter/Filter Cluster Items.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter Property Tree_MAIN.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/filter/Filter Property Tree_MAIN.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter String_Focus Handler.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/filter/Filter String_Focus Handler.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/filter/Filter String_Handler.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/filter/Filter String_Handler.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/menu/Menu_In Place Bundler.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/menu/Menu_In Place Bundler.vi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source Code/menu/Menu_Named Bundler.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/menu/Menu_Named Bundler.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/menu/Menu_Property Node.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/menu/Menu_Property Node.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/Create Dir if Non-Existant_with strip first.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/Create Dir if Non-Existant_with strip first.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/INI_Read LV INI Settings.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/INI_Read LV INI Settings.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/path &amp; file/Path_Support Directory.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/path &amp; file/Path_Support Directory.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Get Properties from Selected Item.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/property/Get Properties from Selected Item.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Properties for Rearrange.vi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree Set Value_Master.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree Set Value_Master.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree Set Value_Rearrange Items.vi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree Symbol Handler_2.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree Symbol Handler_2.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree_Build Tree.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree_Build Tree.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree_Remove empty display-only parents.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree_Remove empty display-only parents.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree_Select on Enter.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/property/Property Tree_Select on Enter.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tests/BundleMagic TEST.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tests/BundleMagic TEST.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/top/BundleMagic TOP.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/top/BundleMagic TOP.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Build Tree From Classes.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Build Tree From Classes.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Build Tree From Cluster.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Build Tree From Cluster.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree Column Header.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree Column Header.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree Value FG.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree Value FG.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree_Cluster Element to Tag.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree_Cluster Element to Tag.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree_Scroll Sync Event Handler_ACAF.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree_Scroll Sync Event Handler_ACAF.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree_Select first or last item.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree_Select first or last item.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree_Sync Drag and Drop.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree_Sync Drag and Drop.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree_Sync Symbols Handler_ACAF.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree_Sync Symbols Handler_ACAF.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tree/Tree_Update Tree.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tree/Tree_Update Tree.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tunnel and terminal/Get Tunnel Position on Structure.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tunnel and terminal/Get Tunnel Position on Structure.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/tunnel and terminal/Get Tunnel Position on Structure_Flat Sequence.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tunnel and terminal/Get Tunnel Position on Structure_Flat Sequence.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/Application Control/Convert to Previous version of LabVIEW.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/Application Control/Convert to Previous version of LabVIEW.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/Application Control/In Subpanel.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/Application Control/In Subpanel.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/Data, Path &amp; File/Library Path_LLLB2.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/Data, Path &amp; File/Library Path_LLLB2.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/Dialog Date &amp; Time/Elapsed Time.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/Dialog Date &amp; Time/Elapsed Time.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/UI/Alignment/Align Windows/Align VI windows.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/UI/Alignment/Align Windows/Align VI windows.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/UI/Splitters/Dialog Window Setup.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/UI/Splitters/Dialog Window Setup.vi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source Code/utils/UI/Splitters/FP splitter mode handler.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/utils/UI/Splitters/FP splitter mode handler.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/position/Position Relative to Tunnel.vi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/property_method/method/Get Methods from Refnum Terminal.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/method/Get Methods from Refnum Terminal.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/property_method/property/Get Properties from Refnum Terminal.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/property_method/property/Get Properties from Refnum Terminal.vi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source Code/tunnel and terminal/Get Tunnel Info_MAIN.vi" beforeDir="false" afterPath="$PROJECT_DIR$/Source Code/tunnel and terminal/Get Tunnel Info_MAIN.vi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +29,7 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="russell/1.1_release_prep" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,8 +50,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "russell/dev2-25",
-    "last_opened_file_path": "C:/Users/drwag/Documents/LabVIEW/BundleMagic",
+    "git-widget-placeholder": "russell/13",
+    "last_opened_file_path": "C:/Users/drwag/Documents/LabVIEW/LabVIEW-common/Analysis/peakdet",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -153,6 +87,7 @@
       <workItem from="1733509569049" duration="946000" />
       <workItem from="1735779480223" duration="4078000" />
       <workItem from="1740694428425" duration="485000" />
+      <workItem from="1743092741952" duration="2031000" />
     </task>
     <task id="LOCAL-00001" summary="testing use opf PyCharm for source code control and LabVIEW">
       <option name="closed" value="true" />
@@ -221,7 +156,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="russell/13" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
